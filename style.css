@@ -1,99 +1,123 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family:'맑은 고딕',sans-serif;
-    background:#f5f7fa;
-    color:#333;
+font-family:'맑은 고딕', sans-serif;
+background:#f5f7fa;
+color:#333;
 }
 
 header{
-    background:#0f172a;
-    color:white;
-    padding:20px;
+background:#0f172a;
+color:white;
+padding:20px;
 }
 
 .container{
-    width:90%;
-    margin:auto;
+width:90%;
+margin:auto;
 }
 
 header h1{
-    text-align:center;
-    margin-bottom:15px;
+text-align:center;
+margin-bottom:15px;
 }
 
 nav{
-    text-align:center;
+text-align:center;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
 }
 
-nav a:hover{
-    color:#38bdf8;
-}
+nav a:hover
 
 .hero{
-    text-align:center;
-    padding:80px 20px;
-    background:white;
+text-align:center;
+padding:80px 20px;
+background:white;
 }
 
 .hero h2{
-    font-size:38px;
-    margin-bottom:20px;
+font-size:38px;
+margin-bottom:20px;
 }
 
 .hero p{
-    font-size:18px;
+font-size:18px;
 }
 
 .cards{
-    width:90%;
-    margin:50px auto;
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
+width:90%;
+margin:50px auto;
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
 }
 
 .card{
-    width:250px;
-    background:white;
-    padding:25px;
-    border-radius:15px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.15);
-    transition:0.3s;
+width:250px;
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+transition:0.3s;
 }
 
 .card:hover{
-    transform:translateY(-5px);
+transform:translateY(-5px);
 }
 
 .card h3{
-    color:#2563eb;
-    margin-bottom:15px;
+color:#2563eb;
+margin-bottom:15px;
 }
 
 .about{
-    width:80%;
-    margin:auto;
-    text-align:center;
-    padding:50px;
+width:80%;
+margin:auto;
+text-align:center;
+padding:50px;
+}
+
+/* 예산별 견적 표 */
+
+.table-container{
+width:80%;
+margin:50px auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+th{
+background:#0f172a;
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+text-align:center;
+border:1px solid #ddd;
 }
 
 footer{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
 }
